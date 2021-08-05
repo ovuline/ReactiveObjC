@@ -13,6 +13,7 @@ let package = Package(
             name: "ReactiveObjC",
             path: "ReactiveObjC",
             exclude: ["Exclude"],
+            sources: ["Sources"],
             publicHeadersPath: "Headers/Public"
         )
     ]
