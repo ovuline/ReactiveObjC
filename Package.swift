@@ -13,10 +13,7 @@ let package = Package(
             name: "ReactiveObjC",
             path: "ReactiveObjC",
             exclude: ["Exclude"],
-            publicHeadersPath: "Headers/Public",
-            cSettings: [
-                .define("TARGET_OS_IOS", to: "1", .when(platforms: [.iOS]))
-            ]
+            publicHeadersPath: "Headers/Public"
         )
     ]
 )
